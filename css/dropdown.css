@@ -1,0 +1,82 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown .input-wrap {
+    position: relative;
+    display: inline;
+}
+.dropdown input {
+    /*padding: 5px 30px 5px 10px;*/
+    padding-right: 30px;
+    border: 1px solid #969696;
+}
+.dropdown .close-button {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 30px;
+}
+.dropdown .close-button:hover {
+    color: red;
+}
+.dropdown .list-dd {
+    position: absolute;
+    z-index: 2;
+    margin-top: -1px;
+}
+
+.dropdown .loader {
+    font-size: 3em;
+    margin: 5px 0 0 0;
+}
+
+.dropdown .list-dd ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: block;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+
+}
+.dropdown .list-dd li {
+    display: block;
+    margin:0;
+    padding: 3px 3px;
+    border-top: 1px solid #e4e4e4;
+    background: #FFF;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.dropdown .list-dd li:hover {
+    background: #ddd;
+}
+.dropdown .list-dd .add-row {
+    padding: 3px 3px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    cursor: pointer;
+    display: block;
+    background: #eee;
+    white-space: nowrap;
+}
+.dropdown .list-dd .add-row:hover {
+    background: #ddd;
+}
+
+.dropdown .list-dd .clear-row {
+    padding: 3px 3px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    cursor: pointer;
+    display: block;
+    background: #fce3e3;
+    white-space: nowrap;
+}
+.dropdown .list-dd .clear-row:hover {
+    background: #FFC0CB;
+}

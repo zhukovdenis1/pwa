@@ -1,0 +1,7 @@
+php_value session.gc_maxlifetime 360000
+RewriteEngine on
+
+RewriteRule manifest.json manifest.json [L]
+RewriteRule offline.html offline.html [L]
+RewriteRule .* run.php
+
